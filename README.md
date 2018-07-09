@@ -1,1 +1,1 @@
-For a description of the project and work log, see [Project+Overview.ipynb](NAC/Project Overview.ipynb).
+For a description of the project and work log, see [Project+Overview.ipynb](Project Overview.ipynb).
