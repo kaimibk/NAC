@@ -74,12 +74,11 @@ Fig. 2 Histogram of $sin(I_s)$.
 </td>
 </tr>
 
+Fig. 3 $vsin(i)$ against $v=2\pi R/P_{rot}$
 
 <div>
     <a href="https://plot.ly/~kaimibk/126/?share_key=mrg9PDusaPnwG7z1hjWeEo" target="_blank" title="vsinis_v" style="display: block; text-align: center;"><img src="https://plot.ly/~kaimibk/126.png?share_key=mrg9PDusaPnwG7z1hjWeEo" alt="vsinis_v" style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
 </div>
-<br />
-<center>Fig. 3 $vsin(i)$ against $v=2\pi R/P_{rot}$</center>
 
 <table width="800" border="1" cellpadding="3">
 
@@ -120,7 +119,6 @@ ___
 <tr>
 <td align="center" valign="center">
     <a href="https://plot.ly/~kaimibk/140/?share_key=RwlpJBWqMfeeTIAwBle9kr" target="_blank" title="psini" style="display: block; text-align: center;"><img src="https://plot.ly/~kaimibk/140.png?share_key=RwlpJBWqMfeeTIAwBle9kr" alt="psini" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="kaimibk:140" sharekey-plotly="RwlpJBWqMfeeTIAwBle9kr" src="https://plot.ly/embed.js" async></script>
 <br />
 Fig. 4 $p(sini)$
 </td>
@@ -130,7 +128,6 @@ Fig. 4 $p(sini)$
 <tr>
 <td align="center" valign="center">
     <a href="https://plot.ly/~kaimibk/138/?share_key=09XxWtCI9l1zdfeAyQTDF0" target="_blank" title="pcosi" style="display: block; text-align: center;"><img src="https://plot.ly/~kaimibk/138.png?share_key=09XxWtCI9l1zdfeAyQTDF0" alt="pcosi" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="kaimibk:138" sharekey-plotly="09XxWtCI9l1zdfeAyQTDF0" src="https://plot.ly/embed.js" async></script>
 <br />
 Fig. 5 $p(cosi)$
 </td>
@@ -157,14 +154,12 @@ ___
 <tr>
 <td align="center" valign="center">
     <a href="https://plot.ly/~kaimibk/144/?share_key=ic6Won6o4kKh8uO33tocct" target="_blank" title="pcosi_mode" style="display: block; text-align: center;"><img src="https://plot.ly/~kaimibk/144.png?share_key=ic6Won6o4kKh8uO33tocct" alt="pcosi_mode" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="kaimibk:144" sharekey-plotly="ic6Won6o4kKh8uO33tocct" src="https://plot.ly/embed.js" async></script>
 <br />
 Fig. 6 Histogram of Modes of Individual $p(\cos(I_*))$
 </td> 
 
 <td align="center" valign="center">
     <a href="https://plot.ly/~kaimibk/146/?share_key=YnwAS9EdolOl85LZjZnYCb" target="_blank" title="pcosi_avg" style="display: block; text-align: center;"><img src="https://plot.ly/~kaimibk/146.png?share_key=YnwAS9EdolOl85LZjZnYCb" alt="pcosi_avg" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="kaimibk:146" sharekey-plotly="YnwAS9EdolOl85LZjZnYCb" src="https://plot.ly/embed.js" async></script>
 <br />
 Fig. 7 Average of Individual, normalized $p(\cos(I_*))$
 </td>
@@ -196,6 +191,7 @@ Fig. 7 Average of Individual, normalized $p(\cos(I_*))$
 </tr>
 
 ### Week 4 Log
+___
 
 **2018-07-09**
 - Continue to fix *isoclassify*
