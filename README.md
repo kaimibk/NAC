@@ -74,14 +74,7 @@ Fig. 2 Histogram of $sin(I_s)$.
 </td>
 </tr>
 
-<table class="image">
-<caption align="bottom">Fig. 3 $vsin(i)$ against $v=2\pi R/P_{rot}$
-</caption>
-<tr>
-<td align="center" valign="center">
-    <a href="https://plot.ly/~kaimibk/126/?share_key=mrg9PDusaPnwG7z1hjWeEo" target="_blank" title="vsinis_v" style="display: block; text-align: center;"><img src="https://plot.ly/~kaimibk/126.png?share_key=mrg9PDusaPnwG7z1hjWeEo" alt="vsinis_v" style="max-width: 100%;width: 400px;" width="400" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-</td>
-</tr>
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~kaimibk/126.embed"></iframe>
 
 <table width="800" border="1" cellpadding="3">
 
