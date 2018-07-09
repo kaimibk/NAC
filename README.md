@@ -62,7 +62,7 @@ ___
 <tr>
 <td align="center" valign="center">
     <a href="https://plot.ly/~kaimibk/86/?share_key=W75NgvKhTp7DJ8TInHybIB" target="_blank" title="table" style="display: block; text-align: center;"><img src="https://plot.ly/~kaimibk/86.png?share_key=W75NgvKhTp7DJ8TInHybIB" alt="table" style="width: 1000px;height:400px"  width="400" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="kaimibk:86" sharekey-plotly="W75NgvKhTp7DJ8TInHybIB" src="https://plot.ly/embed.js" async></script>
+
 <br />
 Merged Catalog for MN_17_3616
 </td>
@@ -73,14 +73,13 @@ Merged Catalog for MN_17_3616
 <tr>
 <td align="center" valign="center">
     <a href="https://plot.ly/~kaimibk/124/?share_key=vpH9Fi67I21Pg5rr5yXH3E" target="_blank" title="parallax_hist" style="display: block; text-align: center;"><img src="https://plot.ly/~kaimibk/124.png?share_key=vpH9Fi67I21Pg5rr5yXH3E" alt="parallax_hist" style="max-width: 100%;width: 400px;"  width="400" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="kaimibk:124" sharekey-plotly="vpH9Fi67I21Pg5rr5yXH3E" src="https://plot.ly/embed.js" async></script>
+ 
 <br />
 Fig. 1 Histogram of Parallax Measurements
 </td> 
 
 <td align="center" valign="center">
     <a href="https://plot.ly/~kaimibk/120/?share_key=VVq9v1abCXiUic9VgWOBrB" target="_blank" title="sinis_hist" style="display: block; text-align: center;"><img src="https://plot.ly/~kaimibk/120.png?share_key=VVq9v1abCXiUic9VgWOBrB" alt="sinis_hist" style="max-width: 100%;width: 400px;"  width="400" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="kaimibk:120" sharekey-plotly="VVq9v1abCXiUic9VgWOBrB" src="https://plot.ly/embed.js" async></script>
 <br />
 Fig. 2 Histogram of $sin(I_s)$.
 </td>
@@ -90,7 +89,6 @@ Fig. 2 Histogram of $sin(I_s)$.
 <tr>
 <td align="center" valign="center">
     <a href="https://plot.ly/~kaimibk/126/?share_key=mrg9PDusaPnwG7z1hjWeEo" target="_blank" title="vsinis_v" style="display: block; text-align: center;"><img src="https://plot.ly/~kaimibk/126.png?share_key=mrg9PDusaPnwG7z1hjWeEo" alt="vsinis_v" style="max-width: 100%;width: 400px;" width="400" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="kaimibk:126" sharekey-plotly="mrg9PDusaPnwG7z1hjWeEo" src="https://plot.ly/embed.js" async></script>
 <br />
 Fig. 3 $vsin(i)$ against $v=2\pi R/P_{rot}$
 </td>
