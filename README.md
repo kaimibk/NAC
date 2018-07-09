@@ -83,6 +83,13 @@ Fig. 2 Histogram of $sin(I_s)$.
 </td>
 </tr>
 
+<table width="800" border="1" cellpadding="3">
+
+<tr>
+<td align="center" valign="center">
+</td>
+</tr>
+
 ### Week 2 Log
 ___
 
