@@ -5,7 +5,6 @@
 
 **Updated:** 2018-06-22
 ___
-___
 
 <h1>Table of Contents<span class="tocSkip"></span></h1>
 <div class="toc"><ul class="toc-item"><li><span><a href="#Overall-Project-Goals-and-Notes" data-toc-modified-id="Overall-Project-Goals-and-Notes-1">Overall Project Goals and Notes</a></span></li><li><span><a href="#Weekly-Project-Log" data-toc-modified-id="Weekly-Project-Log-2">Weekly Project Log</a></span><ul class="toc-item"><li><span><a href="#Week-1-Log" data-toc-modified-id="Week-1-Log-2.1">Week 1 Log</a></span></li><li><span><a href="#Week-2-Log" data-toc-modified-id="Week-2-Log-2.2">Week 2 Log</a></span></li><li><span><a href="#Week-3-Log" data-toc-modified-id="Week-3-Log-2.3">Week 3 Log</a></span></li><li><span><a href="#Week-4-Log" data-toc-modified-id="Week-4-Log-2.4">Week 4 Log</a></span></li></ul></li></ul></div>
@@ -19,24 +18,6 @@ In the [Pleiades paper](http://adsabs.harvard.edu/abs/2018MNRAS.476.3245J) they 
 1. Write a code to derive the probability distribution of the stellar inclination for each star, given $vsin(i)$, $P_{rot}$, and $R_*$
 
 1. Combine those individual constraints to derive the *population-level* distribution for the sample. 
-
-If the probability distribution for $V \sin(I_*)$ is $P_{vs}$ and the probability distribution for $V$ is $p_V$, the the likelihood function can be written as,
-
-$$\mathcal{L}(D | \cos(I_*)) = \int_0^\infty v\cdot p_{Vs}p_V \left(\frac{v}{\sqrt{1-\cos^2(I_*))}}\right) dv$$
-
-for each star this posterior can be sampled to provide samples to evaluate,
-
-$$\mathcal{L} \approx \prod_{n=1}^N \frac{1}{K} \sum_{k=1}^{K} \frac{f_k(c_{nk})}{\pi_0(c_{nk})}$$
-
-where $\pi_0(c_{nk})$ is a uniform distribution from 0 to 1 and,
-
-$$f_k\equiv f_{\cos(I_*)}(z|\kappa) = \frac{2\kappa}{\pi \sinh \kappa} \int_0^1 \frac{\cosh(\kappa \sqrt{1-y^2})}{\sqrt{1-y^2}} \frac{1}{\sqrt{1-(z/y)^2}} dy$$
-
-Which comes from the Fisher distribution,
-$$f_\theta(\theta | \kappa) = \frac{\kappa}{2 \sinh(\kappa)} \exp(\kappa \cos \theta)\sin\theta$$
-
-where $\kappa$ gives the degree of concentration of the distribution. For large $\kappa$, the distribution becomes a Reyleigh distribution with width $\sigma=\kappa^{-0.5}$, and as $\kappa \to 0$ the distribution becomes isotropic. See [HERE](https://docs.scipy.org/doc/numpy/reference/generated/numpy.random.vonmises.html).
-
 
 ___
 ## Weekly Project Log
