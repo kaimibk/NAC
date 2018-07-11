@@ -16,7 +16,8 @@ features = [
 def to_skycoord(ra, dec, units):
     return SkyCoord(ra=ra, dec=dec, unit=units)
 
-def Query_2MASS(series, units, features):
+def Query_2MASS(series, units=units):
+    global features
     c = to_skycoord(ra=series.RA, dec=series.Dec, units=units)
 
     temp = Irsa.query_region(c, radius = 5. * u.arcsecond, catalog='fp_psc').to_pandas
