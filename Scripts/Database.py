@@ -1,11 +1,11 @@
-	from sqlalchemy.ext.declarative import declarative_base
-	from sqlalchemy import Table, Column, Integer, Float, String, create_engine, MetaData
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy import Table, Column, Integer, Float, String, create_engine, MetaData
 
-	obj_name = "Pleiades"
+obj_name = "Pleiades"
 
-	Base = declarative_base()
+Base = declarative_base()
 
-	class MyDatabase:
+class MyDatabase:
 	DB_ENGINE = {"sqlite" : "sqlite:///{DB}"}
 	db_engine = None
 
