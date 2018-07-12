@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="kaimibk@beatrix.astro.princeton.edu:22" uploadOnCheckin="c59106be-7b26-4301-a991-803788656038">
+    <serverData>
+      <paths name="kaimibk@beatrix.astro.princeton.edu:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pycharm_project_510" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="kaimibk@beatrix.astro.princeton.edu:22" />
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

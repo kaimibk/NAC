@@ -1,9 +1,4 @@
-from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Table, Column, Integer, Float, String, create_engine, MetaData
-
-obj_name = "Pleiades"
-
-Base = declarative_base()
 
 class MyDatabase:
 	DB_ENGINE = {"sqlite" : "sqlite:///{DB}"}
@@ -19,6 +14,11 @@ class MyDatabase:
 		else:
 			print("DBTYPE is not found in DB_ENGINE")
 
+	def pandas_to_table(self, dataframe = None, table_name=''):
+		try:
+			dataframe.to_sql(table_name, con=self.db_engine, if_exists='replace')
+		except Exception as e:
+			print(e)
 
 	def create_db_table(self, table_name):
 		"""
@@ -30,7 +30,7 @@ class MyDatabase:
 
 		Returns
 		-------
-		Executes SQLITE3 query to generate a new table
+		Executes SQLITE3 query to generate a new table with default columns 'id' and 'Name'
 		"""
 
 		metadata = MetaData()
@@ -62,9 +62,14 @@ class MyDatabase:
 
 		with self.db_engine.connect() as conn:
 			try:
-				conn.execute(query)
+				result = conn.execute(query)
 			except Exception as e:
 				print(e)
+
+			else:
+				for row in result:
+					print(row)
+				result.close()
 
 	def add_col(self, table_name, col_name, dtype):
 		"""
@@ -81,8 +86,11 @@ class MyDatabase:
 		"""
 
 		with self.db_engine.connect() as conn:
+			if type(col_name) == 'str':  # In the case where one column is created
+				col_name = [col_name]
+				dtype = [dtype]
 
-			for col, d in zip([col_name], [dtype]):
+			for col, d in zip(col_name, dtype):
 				try:
 					command = "ALTER TABLE '{table_name}' ADD '{col_name}' '{dtype}'"
 					sql_command = command.format(table_name=table_name,
@@ -93,70 +101,25 @@ class MyDatabase:
 					print(e)
 					continue
 
+	def insert(self, table, columns, values):
+		query = "INSERT INTO '{table}' ('{columns}') " \
+				"VALUES ('{values}')".format(table=table,
+										   columns=columns,
+										   values=values)
+		self.execute_query(query)
+		self.print_all_data(table)
 
-	# class Star(Base):
-	#
-	#     id = Column(Integer, primary_key=True)
-	#     name = Column(String)
-	#     ra = Column(String)
-	#     dec = Column(String)
-	#
-	#     parallax = Column(Float)
-	#
-	#     radius_val = Column(Float)
-	#     radius_percentile_lower = Column(Float)
-	#     radius_percentile_upper = Column(Float)
-	#     radius_err = Column(Float)
-	#
-	#     lum_val = Column(Float)
-	#     lum_percentile_lower = Column(Float)
-	#     lum_percentile_upper = Column(Float)
-	#     lum_err = Column(Float)
-	#
-	#     teff_val = Column(Float)
-	#     teff_percentile_lower = Column(Float)
-	#     teff_percentile_upper = Column(Float)
-	#
-	#     def __init__(self, tablename, name):
-	#         self.__tablename__ = tablename
-	#         self.name = name
-	#
-	#     def __repr__(self):
-	#         return "<Star(name = '%s')>" % (self.name)
+	def print_all_data(self, table='', query=''):
+		query = query if query != '' else "SELECT * FROM '{}';".format(table)
+		print(query)
 
-
-
-
-	# class Jackson(Base):
-	#
-	#     __tablename__ = "Jackson"
-	#     id = Column(Integer, primary_key=True)
-	#     name = Column(String)
-	#     ra = Column(String)
-	#     dec = Column(String)
-	#
-	#     K2MASS = Column(Float)
-	#     V_Ko = Column(Float)
-	#     Period = Column(Float)
-	#     BCK = Column(Float)
-	#     logL_Lo = Column(Float)
-	#     M_Mo = Column(Float)
-	#     R_Ro = Column(Float)
-	#     vsinip = Column(Float)
-	#     MK = Column(Float)
-	#     LogL_Lo_y = Column(Float)
-	#     SNR = Column(Float)
-	#     RV = Column(Float)
-	#     SRV = Column(Float)
-	#     FWHM = Column(Float)
-	#     SFWHM = Column(Float)
-	#     FWHMo = Column(Float)
-	#     VSINI = Column(String)
-	#     EVSINI = Column(Float)
-	#     Rsini = Column(String)
-	#
-	#     def __repr__(self):
-	#         return "<Star(name = '%s')>" % (self.name)
-
-	#test_star = Gaia(name='Star1', ra="0.000", dec="0.000")
-	#test_star = Star(tablename='Gaia', name='Test1')
+		with self.db_engine.connect() as conn:
+			try:
+				result = conn.execute(query)
+			except Exception as e:
+				print(e)
+			else:
+				for row in result:
+					print(row)
+				result.close()
+			print("\n")
