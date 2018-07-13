@@ -2,6 +2,7 @@ For a description of the project and work log, see the [Project Overview](http:/
 
 ## Notebooks:
 ___
+
 Contains miscellaneous Jupyter Notebooks developed for testing purposes and data inspection. 
 The separate analyzes are currently being streamlined together and optimized. 
 The following notebooks are available:
