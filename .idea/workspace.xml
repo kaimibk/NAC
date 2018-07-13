@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2a3b207-b85b-4b62-a4bf-b14ca4ca5cbe" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/NAC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NAC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project+Overview.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Project+Overview.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Project+Overview-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Project+Overview-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Database.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Loading.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Loading.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,20 +44,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Database.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Database.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scripts/Database.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="88" column="75" selection-start-line="88" selection-start-column="75" selection-end-line="88" selection-end-column="75" />
+            <state relative-caret-position="373">
+              <caret line="94" column="20" lean-forward="true" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Loading.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Loading.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/Loading.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="494">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -87,8 +83,8 @@
         <option value="$PROJECT_DIR$/Scripts/2MASS_query.py" />
         <option value="$PROJECT_DIR$/Scripts/Test.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f6fdeb1f-79fd-413d-bd6f-e5abd1d9e104/console_1.sql" />
-        <option value="$PROJECT_DIR$/Scripts/Database.py" />
         <option value="$PROJECT_DIR$/Scripts/Loading.py" />
+        <option value="$PROJECT_DIR$/Scripts/Database.py" />
       </list>
     </option>
   </component>
@@ -257,8 +253,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32853284" />
       <window_info anchor="right" id="DB Browser" order="5" sideWeight="0.4987593" visible="true" weight="0.32995737" />
@@ -269,9 +264,9 @@
       <window_info anchor="bottom" id="File Transfer" order="8" sideWeight="0.49946696" weight="0.1809181" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946696" weight="0.32853284" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49733475" weight="0.32763276" />
-      <window_info active="true" anchor="bottom" x="4" y="426" width="1916" height="347" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.27452746" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.5021322" side_tool="true" visible="true" weight="0.27452746" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987805" visible="true" weight="0.1881663" />
+      <window_info anchor="bottom" x="4" y="426" width="1916" height="347" id="Run" order="2" sideWeight="0.4978678" weight="0.30776992" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.5021322" side_tool="true" visible="true" weight="0.27447024" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987805" visible="true" weight="0.1881663" />
       <window_info anchor="right" id="R Packages" order="3" weight="0.32960597" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.3295053" />
       <window_info anchor="right" id="R Graphics" order="4" weight="0.32960597" />
@@ -415,20 +410,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="88" column="75" selection-start-line="88" selection-start-column="75" selection-end-line="88" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/Loading.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="494">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="94" column="20" lean-forward="true" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
         </state>
       </provider>
     </entry>
