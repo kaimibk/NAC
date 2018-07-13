@@ -1,4 +1,4 @@
-For a description of the project and work log, see [Project+Overview.ipynb](Project+Overview.ipynb).
+For a description of the project and work log, see the [Project Overview](http://htmlpreview.github.com/?https://github.com/kaimibk/NAC/blob/master/Project%2BOverview.html)
 
 ## Notebooks:
 ___
