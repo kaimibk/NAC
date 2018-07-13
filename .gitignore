@@ -1,3 +1,4 @@
 ## ignore pycharm files
 .idea/
 /Script/.idea/
+.DS_Store
