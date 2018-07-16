@@ -1,8 +1,9 @@
 For a description of the project and work log, see the [Project Overview](http://htmlpreview.github.com/?https://github.com/kaimibk/NAC/blob/master/Project%2BOverview.html)
 
-## Notebooks:
+## Archived Notebooks:
 Contains miscellaneous Jupyter Notebooks developed for testing purposes and data inspection. 
-The separate analyzes are currently being streamlined together and optimized. 
+The separate analyzes are in the process of being streamlined together and optimized, see [Final Notebooks](Final_notebooks/).
+
 The following notebooks are available:
 
 - **[Project Overview](Notebooks/Project+Overview.ipynb)**
@@ -15,4 +16,4 @@ The following notebooks are available:
 - **[testing](Notebooks/testing.ipynb)**
 
 ## Scripts
-Where the optimized analyzes from Notebooks will be located.
+Where the optimized analyzes from Notebooks will eventually be located.
