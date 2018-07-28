@@ -30,7 +30,7 @@ def compute_L(args, start=0.0, end=300.0):
 	return quad(integrand, start, end, args=(p1, p2, cosi))[0]
 
 
-def Likelihood(cosis, v, v_sigma, vsini, vsini_sigma, distribution="normal"):
+def Likelihood(cosis, v, v_sigma, vsini, vsini_sigma, distribution="uniform"):
 	"""
 	Calculate the likelihood of D given cosi
 	Parameters
@@ -53,7 +53,7 @@ def Likelihood(cosis, v, v_sigma, vsini, vsini_sigma, distribution="normal"):
 	"""
 	p1 = stats.norm(loc=v, scale=v_sigma)
 
-	if distribution == "normal":
+	if distribution == "uniform":
 		p2 = stats.norm(loc=vsini, scale=vsini_sigma)
 
 	elif distribution == "flat":
