@@ -57,13 +57,13 @@ def Likelihood(cosis, v, v_sigma, vsini, vsini_sigma, distribution="uniform"):
 		p2 = stats.norm(loc=vsini, scale=vsini_sigma)
 
 	elif distribution == "flat":
-		p2 = stats.uniform()
+		p2 = stats.uniform(0, vsini)
 
 	else:
 		print("Invalid distribution...defaulting to normal")
 		p2 = stats.norm(loc=vsini, scale=vsini_sigma)
 
-	with Pool(10) as pool:
+	with Pool(20) as pool:
 		pdf = np.array(pool.map(compute_L, [(i, p1, p2) for i in cosis]))
 
 	norm = np.trapz(pdf, cosis, dx=0.01)
